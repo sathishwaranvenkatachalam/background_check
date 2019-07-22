@@ -1,0 +1,7 @@
+<body>
+  <input type='file' accept="image/*" (change)="readUrl($event)"><br/><br/>
+  <div class="main">
+ <canvas width="500" height="400" #canvasval class="hideData" [class.displayData]="displayData" >
+ </canvas>
+</div>
+</body>
